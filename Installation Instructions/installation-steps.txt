@@ -1,0 +1,11 @@
+Installation Steps
+================
+
+1):Create a new database, for example with phpMyAdmin. Then open the .env.example file, edit it to match your database name,
+   username and password and save it as .env file. Once done, build tables with the following command: 
+   php artisan migrate
+2):Run the artisan serve command : 
+   php artisan serve
+3):Open your favorite browser and Proceed to : http://localhost:8000/
+
+
